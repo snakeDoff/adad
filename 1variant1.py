@@ -13,7 +13,7 @@ for i in range(n):
     d = True
     intensy = random.randrange(k, m)
     while d:
-        b = random.uniform(d, c)
+        b = round(random.uniform(d, c),1)
         if b not in bilo:
             bilo.append(b)
             d = False
